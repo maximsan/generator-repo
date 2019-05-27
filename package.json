@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/maximsan/generator-repo/issues"
   },
-  "homepage": "https://github.com/maximsan/generator-repo#readme"
+  "homepage": "https://github.com/maximsan/generator-repo#readme",
+  "dependencies": {
+    "yeoman-generator": "^4.0.0"
+  }
 }
