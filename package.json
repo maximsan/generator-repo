@@ -1,0 +1,25 @@
+{
+  "name": "generator-repo",
+  "version": "1.0.0",
+  "description": "Generator with aim to automate repositorty creation from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maximsan/generator-repo.git"
+  },
+  "keywords": [
+    "generator",
+    "repo",
+    "easy",
+    "scratch"
+  ],
+  "author": "maximsan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximsan/generator-repo/issues"
+  },
+  "homepage": "https://github.com/maximsan/generator-repo#readme"
+}
