@@ -4,7 +4,9 @@
   "description": "Generator with aim to automate repositorty creation from scratch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,8 @@
   },
   "homepage": "https://github.com/maximsan/generator-repo#readme",
   "dependencies": {
-    "yeoman-generator": "^4.9.0"
-  }
+    "yeoman-generator": "^4.9.0",
+    "snyk": "^1.321.0"
+  },
+  "snyk": true
 }
