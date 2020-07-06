@@ -26,7 +26,7 @@
   "homepage": "https://github.com/maximsan/generator-repo#readme",
   "dependencies": {
     "yeoman-generator": "^4.10.1",
-    "snyk": "^1.327.0"
+    "snyk": "^1.339.3"
   },
   "snyk": true
 }
